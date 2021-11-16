@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee><h1> Add Books</h1></marquee>
+    <center>
+    <form action="{{ url_for('addData') }}" method="POST" role="form">
+    <label>Enter Book Id:</label><input type="text" id="bid" name="bid"><br><br>
+    <label>Enter Book Name:</label><input type="text" id="bname" name="bname"><br><br>
+    <label>Enter Author Name:</label><input type="text" id="aname" name="aname"><br><br>
+    <label>Enter Subject:</label><input type="text" id="sub" name="sub"><br><br>
+    <button type="submit">Add Books</button>
+    </form>
+    </center>
+
+    
+
+
+
+
+</body>
+</html>
