@@ -1,0 +1,11 @@
+pip install pymongo
+pip install flask_pymongo
+pip install flask
+pip install dnspython
+
+https://codeforgeek.com/render-html-file-in-flask/
+https://stackabuse.com/integrating-mongodb-with-flask-using-flask-pymongo/
+
+py -m venv env
+.\env\Scripts\activate
+flask run
