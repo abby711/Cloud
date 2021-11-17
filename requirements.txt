@@ -12,7 +12,11 @@ flask run
 
 Flask==2.0.1
 Flask_PyMongo==2.3.0
+// to run flask in ubuntu
+sudo apt-get install libapache2-mod-wsgi python-dev
 
+
+sudo a2enmod wsgi 
 sudo apt-get install python-pip 
 
 sudo apt install python3-venv
