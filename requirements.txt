@@ -9,3 +9,6 @@ https://stackabuse.com/integrating-mongodb-with-flask-using-flask-pymongo/
 py -m venv env
 .\env\Scripts\activate
 flask run
+
+Flask==2.0.1
+Flask_PyMongo==2.3.0
