@@ -1,1 +1,80 @@
 # Cloud
+
+export DISPLAY=localhost:0.0
+
+sudo apt-get remove git
+
+sudo apt install git
+git --version
+git config --global user.name "5007 Abirami"
+git config --global user.email "abby71177@gmail.com"
+
+------ ----------------------TO PUSH MULTIPLE FILES IN A REPO ------------------------------<br>
+go to a dummy folder
+
+git clone https://github.com/abby711/FOSS.git
+cd FOSS
+
+code .
+ [ goes to the designated ide and start adding files/working on the folder ]
+
+git add .
+
+git commit -m message you want without spaces
+
+git push origin main
+
+----------------------------------- to delete a file ---------------------------------------<br>
+git rm filename
+git commit -m message
+git push origin main
+
+----------------------------------- to merge branches--------------------------------------------------------------<br>
+git branch branchname  ----> create new branch
+git checkout branchname   ----> move into the new branch
+git status
+git branch --list
+
+[add a file to the branch]
+
+git add .
+
+git commit -m "message"
+
+git push origin "branchname"
+git checkout main
+git merge "which branch you want to merge"
+git commit -m "message"
+
+git push origin main
+
+------------------------------------to delete a branch----------------------------------------------------------------<br>
+git branch -d branchname
+
+------------------------------------- other commands-------------------------------------<br>
+git log
+git reset
+
+
+
+--------------------VM PLAYER----------------------------------------------<br>
+https://www.vmware.com/in/products/workstation-player/workstation-player-evaluation.html
+https://www.virtualbox.org/wiki/Downloads
+
+https://releases.ubuntu.com/20.04/
+
+--------------------GAE THEORY AND ALGO--------------------------------<br>
+https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0
+--------------FLASK--------------------------------------------------<br>
+https://codeforgeek.com/render-html-file-in-flask/
+https://stackabuse.com/integrating-mongodb-with-flask-using-flask-pymongo/
+
+---------------------- CLOUD SIM-------------------------------------<br>
+https://github.com/michaelfahmy/cloudsim-task-scheduling
+
+
+---------------------FILE TRANSFER GUEST TO HOST----------------------<br>
+https://www.tecmint.com/enable-share-folder-in-vmware-workstation/
+
+
+
