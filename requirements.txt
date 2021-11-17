@@ -12,3 +12,12 @@ flask run
 
 Flask==2.0.1
 Flask_PyMongo==2.3.0
+
+sudo apt-get install python-pip 
+
+sudo apt install python3-venv
+python3 -m venv env
+source env/bin/activate
+sudo pip install Flask 
+sudo python __init__.py 
+
