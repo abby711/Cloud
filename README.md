@@ -5,9 +5,9 @@ export DISPLAY=localhost:0.0
 sudo apt-get remove git
 
 sudo apt install git
-git --version
-git config --global user.name "5007 Abirami"
-git config --global user.email "abby71177@gmail.com"
+git --version<br>
+git config --global user.name "5007 Abirami"<br>
+git config --global user.email "abby71177@gmail.com"<br>
 
 ------ ----------------------TO PUSH MULTIPLE FILES IN A REPO ------------------------------<br>
 go to a dummy folder
@@ -30,10 +30,10 @@ git commit -m message
 git push origin main
 
 ----------------------------------- to merge branches--------------------------------------------------------------<br>
-git branch branchname  ----> create new branch
-git checkout branchname   ----> move into the new branch
-git status
-git branch --list
+git branch branchname  ----> create new branch<br>
+git checkout branchname   ----> move into the new branch<br>
+git status<br>
+git branch --list<br>
 
 [add a file to the branch]
 
@@ -41,12 +41,12 @@ git add .
 
 git commit -m "message"
 
-git push origin "branchname"
-git checkout main
-git merge "which branch you want to merge"
-git commit -m "message"
+git push origin "branchname" <br>
+git checkout main<br>
+git merge "which branch you want to merge"<br>
+git commit -m "message"<br>
 
-git push origin main
+git push origin main<br>
 
 ------------------------------------to delete a branch----------------------------------------------------------------<br>
 git branch -d branchname
