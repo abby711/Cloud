@@ -25,9 +25,9 @@ git commit -m message you want without spaces
 git push origin main
 
 ----------------------------------- to delete a file ---------------------------------------<br>
-git rm filename
-git commit -m message
-git push origin main
+git rm filename <br>
+git commit -m message <br>
+git push origin main <br>
 
 ----------------------------------- to merge branches--------------------------------------------------------------<br>
 git branch branchname  ----> create new branch<br>
@@ -53,7 +53,11 @@ git branch -d branchname
 
 ------------------------------------- other commands-------------------------------------<br>
 git log
-git reset
+git reset<br>
+git init <br>
+git status <br>
+git fetch
+
 
 
 
