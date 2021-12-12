@@ -1,4 +1,4 @@
-Ki# Cloud
+
 
 export DISPLAY=localhost:0.0
 
@@ -80,5 +80,8 @@ https://github.com/michaelfahmy/cloudsim-task-scheduling
 ---------------------FILE TRANSFER GUEST TO HOST----------------------<br>
 https://www.tecmint.com/enable-share-folder-in-vmware-workstation/
 
+
+sudo useradd /bin/bash -d /opt/stack -m stack
+echo " stack ALL= (ALL) NOPASSWD :ALL"| sudo tee/etc/sudoers.d/stack
 
 
