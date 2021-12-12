@@ -12,7 +12,7 @@ git config --global user.email "abby71177@gmail.com"<br>
 ------ ----------------------TO PUSH MULTIPLE FILES IN A REPO ------------------------------<br>
 go to a dummy folder
 
-git clone https://github.com/abby711/FOSS.git
+git clone https://github.com/abby711/FOSS.git <br>
 cd FOSS
 
 code .
