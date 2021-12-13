@@ -86,7 +86,7 @@ sudo reboot <br>
 create devstack user by the name stack <br>
 sudo useradd /bin/bash -d /opt/stack -m stack<br>
 echo " stack ALL= (ALL) NOPASSWD :ALL"| sudo tee/etc/sudoers.d/stack
-sudo su -stack 
+sudo su -stack <br>
 download git <br>
 git clone https://git.ooenstack.org/devstack <br>
 
@@ -98,7 +98,8 @@ Create local.conf file
 See result at https:// IP ADDRESS /dashboard 
 
 
-
+Openstack theory
+https://www.redhat.com/en/topics/openstack
 
 
 
