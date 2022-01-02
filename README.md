@@ -85,7 +85,7 @@ sudo apt update<br>
 sudo reboot <br>
 create devstack user by the name stack <br>
 sudo useradd /bin/bash -d /opt/stack -m stack<br>
-echo " stack ALL= (ALL) NOPASSWD :ALL"| sudo tee/etc/sudoers.d/stack
+echo " stack ALL= (ALL) NOPASSWD :ALL"| sudo tee/etc/sudoers.d/stack <br>
 sudo su -stack <br>
 download git <br>
 git clone https://git.ooenstack.org/devstack <br>
