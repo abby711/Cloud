@@ -1,0 +1,27 @@
+try{
+             String username=jTextField1.getText();
+        String pass=String.valueOf(jPasswordField1.getPassword());
+             Class.forName("org.apache.derby.jdbc.ClientDriver");
+            Connection con=(Connection) DriverManager.getConnection("jdbc:derby://localhost:1527/abby", "abby", "abby");
+            PreparedStatement ps=(PreparedStatement) con.prepareCall("insert into finalbook(tno,source,dest,seats,date,clas,child,adult,old,u2,cost,bookid) values (?,?,?,?,?,?,?,?,?,?,?,?)");
+            ps.setString(1,username);
+            ps.setString(2,from);
+            ps.setString(3,to);
+            ps.executeUpdate();
+            
+            JOptionPane.showMessageDialog(this, "Booking Successful :)");
+        } catch (Exception e) {
+            System.err.println(e);
+        }  
+                intro i=new intro();
+i.setVisible(true);
+        this.dispose();
+    } 
+    
+    
+    
+    PreparedStatement ps=(PreparedStatement) con.prepareCall(" DELETE FROM finalbook where bookid=?");
+            ps.setString(1,info.bookid);
+            
+            
+            ps.execute();
